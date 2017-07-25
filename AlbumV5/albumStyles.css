@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+li{
+    font: medium;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: azure;
+}
+
+table{
+    border: darkblue;
+    font-style: italic;
+    background-color: ivory
+}
+
