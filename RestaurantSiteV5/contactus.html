@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="restaurantStyles.css" rel="stylesheet"  type="text/css" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <center><h1>Martin's</h1></center>
+                <hr/>
+                <ul class="nav nav-tabs">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li class="active"><a href="#">Contact Us</a></li>
+                </ul>
+                <hr/>
+            </div>
+
+            <div>
+                <form action="#" method="POST">
+                    
+                <div class="row">
+                <div class="col-lg-6"><label id="firstName" name="firstName">First Name :</label></div>
+                <div class="col-lg-6"><input type="text" name="myFirstName" /></div>
+                </div>
+
+                <div class="row">
+                <div class="col-lg-6"><label id="lastName" name="lastName">Last Name  :</label></div>
+                <div class="col-lg-6"><input type="text" name="myLastName" /></div>
+                </div>
+
+                <div class="row">
+                <div class="col-lg-6"><label id="email" name="email">Email      :</label></div>
+                <div class="col-lg-6"><input type="text" name="myEmail" /></div>
+                </div>
+
+                <div class="row">
+                <div class="col-lg-6"> <label id="reason" name="reason">Reason for Inquiry:</label></div>
+                <div class="col-lg-6">
+                    <select name="Reason">
+                        <option value="catering">Catering</option>
+                        <option value="privateParty">Private Party</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-lg-6"><label id="addInfo" name="addInfo">Additional Information:</label></div>
+                <div class="col-lg-6"><textarea name="myText"></textarea></div>
+                </div>
+
+                <div class="row">
+                <div class="col-lg-6"><label id="beenToTheRest" name="beenToTheRest">Have you been to the restaurant?</label></div>
+                <div class="col-lg-6">
+                    <input type="radio" name="visitedRestaurant" value="yes">Yes</input>
+                    <input type="radio" name="visitedRestaurant" value="no">No</input>
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-lg-6"><label id="daystocontact" name="daystocontact">Best days to contact you:</label></div>
+                <div class="col-lg-6">
+                    <input type="checkbox" name="mon">M</input> 
+                    <input type="checkbox" name="tue">T</input>
+                    <input type="checkbox" name="wed">W</input>
+                    <input type="checkbox" name="thu">Th</input>
+                    <input type="checkbox" name="fri">F</input><br/><br/>
+                    <input type="submit" value="Send Request" /> 
+                </div>
+                </div>
+                </form>
+            </div>
+            <br/><br/><br/><br/>
+
+            <footer class="footer">
+                <hr/>
+                <p>1282 Town Centre Dr, Eagan MN 55123<br/>
+                    <strong>Phone: (651) 330-8099</strong></p>
+            </footer>
+        </div>
+    </body>
+</html>
